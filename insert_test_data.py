@@ -12,10 +12,10 @@ def insert_test_data():
     dao_intervention = InterventionDAO()
 
 
-    dao_utilisateur.ajouter(Utilisateur(None, "admin", "admin123", "Diallo", "Mamadou", "admin@entreprise.sn", "ADMIN", "Direction"))
-    dao_utilisateur.ajouter(Utilisateur(None, "tech1", "tech123", "Fall", "Ibrahima", "ifall@entreprise.sn", "TECHNICIEN", "Informatique"))
-    dao_utilisateur.ajouter(Utilisateur(None, "tech2", "tech123", "Sow", "Aminata", "asow@entreprise.sn", "TECHNICIEN", "Informatique"))
-    dao_utilisateur.ajouter(Utilisateur(None, "user1", "user123", "Ndiaye", "Cheikh", "cndiaye@entreprise.sn", "UTILISATEUR", "Comptabilité"))
+    dao_utilisateur.ajouter(Utilisateur(None, "admin", "admin123", "Traore", "Cheikh", "admin@entreprise.sn", "ADMIN", "Direction"))
+    dao_utilisateur.ajouter(Utilisateur(None, "tech1", "tech123", "Niang", "Khadidiatou", "nkhady@entreprise.sn", "TECHNICIEN", "Informatique"))
+    dao_utilisateur.ajouter(Utilisateur(None, "tech2", "tech123", "Gueye", "Marieme", "gmari@entreprise.sn", "TECHNICIEN", "Informatique"))
+    dao_utilisateur.ajouter(Utilisateur(None, "user1", "user123", "Diallo", "Mustapha", "dmusta@entreprise.sn", "UTILISATEUR", "Comptabilité"))
     dao_utilisateur.ajouter(Utilisateur(None, "user2", "user123", "Ba", "Fatou", "fba@entreprise.sn", "UTILISATEUR", "RH"))
 
 
